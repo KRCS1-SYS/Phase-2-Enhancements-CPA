@@ -1,0 +1,145 @@
+TagId,TagName,AssociatedEquipment,Section,SignalType,ParameterName,ParameterType,MeasurementUnit,MinimumRange,MaximumRange,Low,High,CreatedAt,UpdatedAt
+AT_901,O2 % at Eco Outlet,150 TPH Boiler,Boiler,Analog Input,Oxygen analyser at economised outlet,Oxygen,%,0,25,0.5,,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+CB52_2,TIE Breaker,Grid,Turbine,Digital Input,TIE CB contact,Breaker Open,Run,0,1,,,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+CUR_604,AVR excitation current,AVR,Turbine,Analog Input,AVR excitation current,Current,Amp,0,25,,15,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+DI_701,Diff Expan.,30.85 MW Turbine,Turbine,Analog Input,Differential expansion,Vibration,MM,-5,5,-2,2,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+DT_901,Plenum Hopper Draught,Plenum Hopper,Boiler,Analog Input,Plenum hopper draught transmitter,Draught,MMWC,-200,200,,85,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+DT_902,Flue Gas Draught Before RSH,Flue Gas,Boiler,Analog Input,Flue gas draught before RSH,Draught,MMWC,-120,120,,,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+DT_903,Flue Gas Draught After RSH,Flue Gas,Boiler,Analog Input,Flue gas draught after RSH,Draught,MMWC,-120,120,,,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+DT_904,Flue Gas Draught After FSH,Flue Gas,Boiler,Analog Input,Flue gas draught after FSH,Draught,MMWC,-150,50,,,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+DT_905,Flue Gas Draught After LTSH,Flue Gas,Boiler,Analog Input,Flue gas draught after LTSH,Draught,MMWC,-200,0,,,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+DT_906,Flue Gas Draught After Economiser,Flue Gas,Boiler,Analog Input,Flue gas draught after economiser,Draught,MMWC,-300,0,,,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+DT_907,Flue Gas Draft After APH,Flue Gas,Boiler,Analog Input,Flue gas draught after tubular air heater,Draught,MMWC,-500,0,,,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+DT_908,Flue Gas At ESP,Flue Gas,Boiler,Analog Input,Flue gas at ESP outlet draught transmitter,Draught,MMWC,-600,0,,,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+DT_911,ID FAN-A DIS Dr.,ID Fan,Boiler,Analog Input,ID fan-A discharge draught transmitter,Draught,MMWC,-50,50,,,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+DT_912,SA FAN-B DIS Dr.,SA Fan,Boiler,Analog Input,SA fan-B discharge draught transmitter,Draught,MMWC,0,1200,,645,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+DT_913,SA FAN-A DIS Dr.,SA Fan,Boiler,Analog Input,SA fan-A discharge draught transmitter,Draught,MMWC,0,1200,,645,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+DT_914,FD FAN-A DIS Dr.,FD Fan,Boiler,Analog Input,FD fan-A discharge draught transmitter,Draught,MMWC,0,600,,295,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+DT_914A,DA FAN-A DIS Dr.,DA Fan,Boiler,Analog Input,DA Fan-A Discharge Draft Transmitter,Draught,MMWC,0,1200,,645,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+DT_915,FD FAN-B DIS Dr.,FD Fan,Boiler,Analog Input,FD fan-B discharge draught transmitter,Draught,MMWC,0,600,,295,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+DT_916,FD AIR Draught Scaph OL.,FD Fan,Boiler,Analog Input,FD air draught at outlet of FD fan scaph,Draught,MMWC,0,600,,295,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+DT_917,Sa Fan Air Draught After Scaph,SA Fan,Boiler,Analog Input,SA fan air draught after SA fan scaph,Draught,MMWC,0,1200,,645,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+DT_918,Fd Air Draught After Ah.,Air,Boiler,Analog Input,FD air draught after tubular air heater,Draught,MMWC,0,250,,120,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+DT_919,Sa Air Draught At Fur.,Air,Boiler,Analog Input,SA air draught at inlet of furnace,Draught,MMWC,0,1000,250,,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+DT_920,Fd Air Draught At Fur.,Air,Boiler,Analog Input,FD air draught at inlet of furnace,Draught,MMWC,-20,250,,120,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+EXP_IMP_MW,Grid Exp./Imp.,Grid,Turbine,Analog Input,Grid Export/Import,Export Load,MW,-40,40,,,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+FRE_611,Generator frequency,Turbine Alternator,Turbine,Analog Input,Generator frequency,Frequency,Hz,45,55,49.5,50.5,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+FT_202,Condensate to deaerator Flow,30.85 MW Turbine,Turbine,Analog Input,Condensate to deaerator flow transmitter,Flow,TPH,0,157.10000610351563,,,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+FT_500,Main Steam Flow.,150 TPH Boiler,Boiler,Analog Input,Main steam flow transmitter,Flow,TPH,0,220,,,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+FT_900A,Fd Fan Discharge Flow,FD Fan,Boiler,Analog Input,FD fan discharge flow transmitter,Flow,TPH,0,180,,,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+FT_901A,Sa Fan Discharge Flow,SA Fan,Boiler,Analog Input,SA fan discharge flow transmitter,Flow,TPH,0,120,,,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+kV_GRID,KV Grid,Grid,Turbine,Analog Input,kV grid,Voltage,Volt,0,150,,145,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+KW_601,Turbine Load,30.85 MW Turbine,Turbine,Analog Input,Turbine Load,Load,MW,0,40.200000762939453,,31,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+LT_500A,Drum Level,150 TPH Boiler Drum,Boiler,Analog Input,Drum level transmitter,Level,%,0,100,30,80,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+PT_101A,Inlet Steam Pr.,30.85 MW Turbine,Turbine,Analog Input,Inlet steam pressure transmitter,Pressure,Kg/cm²,0,140,85,108,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+PT_105A,Exhaust Steam Pr.,30.85 MW Turbine,Turbine,Analog Input,Exhaust steam pressure transmitter,Pressure,Kg/cm²,-1,1.5,-0.69999998807907104,,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+PT_506A,Main Steam Pr.,150 TPH Boiler,Boiler,Analog Input,Main steam pressure transmitter,Pressure,Kg/cm²,0,200,92,112,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+PT_900A,Furnace Pr.,150 TPH Boiler Furnace,Boiler,Analog Input,Furnace pressure transmitter,Pressure,MMWC,-300,300,-25,25,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+PT_901A,Hydraulic Drive-1 Pr.,Travelling Grate Drive,Boiler,Analog Input,Hydraulic Drive-1 Pressure,Pressure,Kg/cm²,0,50,,17,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+PT_901B,Hydraulic Drive-2 Pr.,Travelling Grate Drive,Boiler,Analog Input,Hydraulic Drive-2 Pressure,Pressure,Kg/cm²,0,50,,17,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+RCU_608,Generator R-phase current,Turbine Alternator,Turbine,Analog Input,Generator R-phase current,Current,Amp,0,2600,,2300,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+RYV_612,Generator RY line voltage,Turbine Alternator,Turbine,Analog Input,Generator RY line voltage,Voltage,Kv,0,13.199999809265137,10.5,11.5,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+SI_601,Turbine speed,30.85 MW Turbine,Turbine,Analog Input,Turbine speed,Speed,RPM,0,9999,,,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+SI_DE1,Drum extractor-1 Speed,Drum extractor,Boiler,Analog Input,Drum extractor-1 speed feedback,Speed,RPM,0,1476,,,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+SI_DE2,Drum extractor-2 Speed,Drum extractor,Boiler,Analog Input,Drum extractor-2 speed feedback,Speed,RPM,0,1476,,,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+SI_DE3,Drum extractor-3 Speed,Drum extractor,Boiler,Analog Input,Drum extractor-3 speed feedback,Speed,RPM,0,1476,,,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+SI_DE4,Drum extractor-4 Speed,Drum extractor,Boiler,Analog Input,Drum extractor-4 speed feedback,Speed,RPM,0,1476,,,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+SI_DE5,Drum extractor-5 Speed,Drum extractor,Boiler,Analog Input,Drum extractor-5 speed feedback,Speed,RPM,0,1476,,,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_1001,Furnace Temp. Front,150 TPH Boiler Furnace,Boiler,Thermocouple,Furnace Temp. Front side,Temperature,ºC,-270,1372,,845,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_600A,BFP-A Mot. DE Temp.,Boiler Feed Pump,Boiler,RTD,BFP-A motor bearing DE temp element,Temperature,ºC,-200,850,,80,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_600B,BFP-A Mot. NDE Temp.,Boiler Feed Pump,Boiler,RTD,BFP-A motor bearing NDE temp element,Temperature,ºC,-200,850,,80,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_600C,BFP-A Bearing DE Temp.,Boiler Feed Pump,Boiler,RTD,BFP-A bearing DE temperature element,Temperature,ºC,-200,850,,80,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_600D,BFP-A Bearing NDE Temp.,Boiler Feed Pump,Boiler,RTD,BFP-A bearing NDE temperature element,Temperature,ºC,-200,850,,80,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_601,Deaerator Outlet Temp.,Deaerator,Boiler,RTD,Deaerator outlet temperature element,Temperature,ºC,-200,850,,135,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_601A,BFP-B Mot. DE Temp.,Boiler Feed Pump,Boiler,RTD,BFP-B motor bearing DE temp element,Temperature,ºC,-200,850,,80,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_601B,BFP-B Mot. NDE Temp.,Boiler Feed Pump,Boiler,RTD,BFP-B motor bearing NDE temp element,Temperature,ºC,-200,850,,80,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_601C,BFP-B Bearing. DE Temp.,Boiler Feed Pump,Boiler,RTD,BFP-B bearing DE temperature element,Temperature,ºC,-200,850,,80,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_601D,BFP-B Bearing NDE Temp.,Boiler Feed Pump,Boiler,RTD,BFP-B bearing NDE temperature element,Temperature,ºC,-200,850,,80,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_602A,BFP-C  Mot. DE Temp.,Boiler Feed Pump,Boiler,RTD,BFP-C motor bearing DE temp element,Temperature,ºC,-200,850,,80,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_602B,BFP-C Mot. NDE Temp.,Boiler Feed Pump,Boiler,RTD,BFP-C motor bearing NDE temp element,Temperature,ºC,-200,850,,80,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_602C,BFP-C Bearing DE Temp.,Boiler Feed Pump,Boiler,RTD,BFP-C bearing DE temperature element,Temperature,ºC,-200,850,,80,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_602D,BFP-C Bearing NDE Temp.,Boiler Feed Pump,Boiler,RTD,BFP-C bearing NDE temperature element,Temperature,ºC,-200,850,,80,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_603A,BFP-D Mot. DE Temp.,Boiler Feed Pump,Boiler,RTD,BFP-D motor bearing DE temp element,Temperature,ºC,-200,850,,80,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_603B,BFP-D Mot. NDE Temp.,Boiler Feed Pump,Boiler,RTD,BFP-D motor bearing NDE temp element,Temperature,ºC,-200,850,,80,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_603C,BFP-D Bearing DE Temp.,Boiler Feed Pump,Boiler,RTD,BFP-D bearing DE temperature element,Temperature,ºC,-200,850,,80,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_603D,BFP-D Bearing NDE Temp.,Boiler Feed Pump,Boiler,RTD,BFP-D bearing NDE temperature element,Temperature,ºC,-200,850,,80,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_611,FW Eco Inlet Temp.,Ecopnomiser,Boiler,T/C,Feedwater at economiser inlet line temp.,Temperature,ºC,-270,1372,,220,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_612,FW Eco Outlet Temp.,Ecopnomiser,Boiler,T/C,Feedwater at economiser outlet temp.,Temperature,ºC,-270,1372,,350,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_701,Turbine Inactive Thrust Brg Temp.,30.85 MW Turbine,Turbine,RTD,Turbine inactive thrust bearing bottom temperatur,Temperature,ºC,-200,850,,100,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_703,Turbine Active Thrust Brg Temp.,30.85 MW Turbine,Turbine,RTD,Turbine active thrust bearing bottom temperature,Temperature,ºC,-200,850,,100,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_705,Turbine Front Brg. Temp,30.85 MW Turbine,Turbine,RTD,Turbine front bearing bottom temperature elemen,Temperature,ºC,-200,850,,100,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_707,Turbine Rear Brg Temp.,30.85 MW Turbine,Turbine,RTD,Turbine rear bearing temperature element-1,Temperature,ºC,-200,850,,100,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_709,Pinion Front Brg Temp.,Turbine Pinion,Turbine,RTD,Gearbox pinion front bearing,Temperature,ºC,-200,850,,100,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_712,Gearbox Front Brg Temp.,Turbine Gear Wheel,Turbine,RTD,Gearbox wheel front bearing,Temperature,ºC,-200,850,,100,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_713,Pinion Rear Brg Temp.,Turbine Pinion,Turbine,RTD,Gearbox pinion rear bearing,Temperature,ºC,-200,850,,100,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_716,Gearbox Rear Brg.,Turbine Gear Wheel,Turbine,RTD,Gearbox wheel rear bearing,Temperature,ºC,-200,850,,100,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_717,Gearbox Thrust Rear Brg.,Turbine Gear Wheel,Turbine,RTD,Gearbox wheel thrust rear bearing,Temperature,ºC,-200,850,,100,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_719,Gearbox Thrust Front Brg.,Turbine Gear Wheel,Turbine,RTD,Gearbox wheel thrust front bearing,Temperature,ºC,-200,850,,100,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_721,Alternator DE Brg Temp.,Turbine Alternator,Turbine,RTD,Alternator DE bearing temperature,Temperature,ºC,-200,850,,85,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_723,Alternator NDE Brg Temp.,Turbine Alternator,Turbine,RTD,Alternator NDE bearing temperature,Temperature,ºC,-200,850,,85,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_725,Alternator R-1 Temp.,Turbine Alternator,Turbine,RTD,Alternator R-1 winding temperature,Temperature,ºC,-200,850,,125,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_729,Alternator Y-1 Temp.,Turbine Alternator,Turbine,RTD,Alternator Y-1 winding temperature,Temperature,ºC,-200,850,,125,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_733,Alternator B-1 Temp.,Turbine Alternator,Turbine,RTD,Alternator B-1 winding temperature,Temperature,ºC,-200,850,,125,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_901C,ID FAN-A DE Temp.,ID Fan,Boiler,RTD,ID fan-A bearing DE temperature element,Temperature,ºC,-200,850,,80,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_901D,ID FAN-A NDE Temp.,ID Fan,Boiler,RTD,ID fan-A bearing NDE temperature element,Temperature,ºC,-200,850,,80,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_902,Furnace Plenum Hopper Temp.,Plenum Hopper,Boiler,T/C,Furnace plenum hopper temperature,Temperature,ºC,-270,1372,,235,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_902C,ID FAN-B DE Temp.,ID Fan,Boiler,RTD,ID fan-B bearing DE temperature element,Temperature,ºC,-200,850,,80,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_902D,ID FAN-B NDE Temp.,ID Fan,Boiler,RTD,ID fan-B bearing NDE temp element,Temperature,ºC,-200,850,,80,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_903,Flue Gas Before RSH Temp.,Flue Gas,Boiler,T/C,Flue gas before RSH temperature element,Temperature,ºC,-270,1372,,845,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_903C,SA FAN-A DE Temp.,SA Fan,Boiler,RTD,SA fan-A bearing DE temperature element,Temperature,ºC,-200,850,,80,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_903D,SA FAN-A NDE Temp.,SA Fan,Boiler,RTD,SA fan-A bearing NDE temperature element,Temperature,ºC,-200,850,,80,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_904,Flue Gas After RSH Temp.,Flue Gas,Boiler,T/C,Flue gas after RSH temperature element,Temperature,ºC,-270,1372,,780,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_904C,SA FAN-B DE Temp.,SA Fan,Boiler,RTD,SA fan-B bearing DE temperature element,Temperature,ºC,-200,850,,80,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_904D,SA FAN-B NDE Temp.,SA Fan,Boiler,RTD,SA fan-B bearing NDE temperature element,Temperature,ºC,-200,850,,80,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_905,Flue Gas After FSH Temp.,Flue Gas,Boiler,T/C,Flue gas after FSH temperature element,Temperature,ºC,-270,1372,,615,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_905C,FD FAN-A DE Temp.,FD Fan,Boiler,RTD,FD fan-A bearing DE temperature element,Temperature,ºC,-200,850,,80,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_905D,FD FAN-A NDE Temp.,FD Fan,Boiler,RTD,FD fan-A bearing NDE temperature element,Temperature,ºC,-200,850,,80,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_906,Flue Gas After LTSH Temp.,Flue Gas,Boiler,T/C,Flue gas after LTSH temperature element,Temperature,ºC,-270,1372,,445,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_906C,FD FAN-B DE Temp.,FD Fan,Boiler,RTD,FD fan-B bearing DE temperature element,Temperature,ºC,-200,850,,80,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_906D,FD FAN-B NDE Temp.,FD Fan,Boiler,RTD,FD fan-B bearing NDE temperature element,Temperature,ºC,-200,850,,80,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_907,Flue Gas After Eco. Temp.,Flue Gas,Boiler,T/C,Flue gas after economiser temperature,Temperature,ºC,-270,1372,,285,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_908,Flue Gas After APH Temp.,Flue Gas,Boiler,T/C,Flue gas after tubular air heater temperature,Temperature,ºC,-270,1372,,160,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_909,Flue Gas After ESP Temp.,Flue Gas,Boiler,T/C,Flue gas at ESP outlet temperature element,Temperature,ºC,-270,1372,,160,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_913,FD Air After APH Temp,Air,Boiler,T/C,FD air after tubular air heater temperature,Temperature,ºC,-270,1372,,235,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TE_914,SA Air After APH Temp,Air,Boiler,T/C,SA air after tubular air heater temperature,Temperature,ºC,-270,1372,,235,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TT_101A,Inlet Steam Temp.,30.85 MW Turbine,Turbine,Analog Input,Inlet steam temperature transmitter,Temperature,ºC,0,800,460,545,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+TT_506A,Main Steam Temp.,150 TPH Boiler,Boiler,Analog Input,Main steam temperature transmitter,Temperature,ºC,0,800,480,555,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+VE_600A,BFP-A DE vib.,Boiler Feed Pump,Boiler,Analog Input,BFP-A DE vibration,Vibration,MM/S,0,25,,7,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+VE_600B,BFP-A NDE vib.,Boiler Feed Pump,Boiler,Analog Input,BFP-A NDE vibration,Vibration,MM/S,0,25,,7,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+VE_601A,BFP-B DE vib.,Boiler Feed Pump,Boiler,Analog Input,BFP-B DE vibration,Vibration,MM/S,0,25,,7,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+VE_601B,BFP-B NDE vib.,Boiler Feed Pump,Boiler,Analog Input,BFP-B NDE vibration,Vibration,MM/S,0,25,,7,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+VE_602A,BFP-C DE vib.,Boiler Feed Pump,Boiler,Analog Input,BFP-C DE vibration,Vibration,MM/S,0,25,,7,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+VE_602B,BFP-C NDE vib.,Boiler Feed Pump,Boiler,Analog Input,BFP-C NDE vibration,Vibration,MM/S,0,25,,7,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+VE_603A,BFP-D DE vib.,Boiler Feed Pump,Boiler,Analog Input,BFP-D DE vibration,Vibration,MM/S,0,25,,7,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+VE_603B,BFP-D NDE vib.,Boiler Feed Pump,Boiler,Analog Input,BFP-D NDE vibration,Vibration,MM/S,0,25,,7,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+VE_715,Generator Fron After Vib-Y,Turbine Alternator,Turbine,Analog Input,Generator fore bearing vibration Y axis,Vibration,Mils,0,10,,4,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+VE_716,Generator Front Vib-X,Turbine Alternator,Turbine,Analog Input,Generator fore bearing vibration X axis,Vibration,Mils,0,10,,4,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+VE_717,Generator Rear Vib-Y,Turbine Alternator,Turbine,Analog Input,Generator after bearing vibration Y axis,Vibration,Mils,0,10,,4,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+VE_718,Generator Rear Vib-X,Turbine Alternator,Turbine,Analog Input,Generator after bearing vibration X axis,Vibration,Mils,0,10,,4,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+VE_901A,ID fan-A DE vib.,ID Fan,Boiler,Analog Input,ID fan-A DE vibration,Vibration,MM/S,0,25,,7,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+VE_901B,ID fan-A NDE vib.,ID Fan,Boiler,Analog Input,ID fan-A NDE vibration,Vibration,MM/S,0,25,,7,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+VE_902A,ID fan-B DE vib.,ID Fan,Boiler,Analog Input,ID fan-B DE vibration,Vibration,MM/S,0,25,,7,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+VE_902B,ID fan-B NDE vib.,ID Fan,Boiler,Analog Input,ID fan-B NDE vibration,Vibration,MM/S,0,25,,7,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+VE_903A,SA fan-A DE vib.,SA Fan,Boiler,Analog Input,SA fan-A DE vibration,Vibration,MM/S,0,25,,7,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+VE_903B,SA fan-A NDE vib.,SA Fan,Boiler,Analog Input,SA fan-A NDE vibration,Vibration,MM/S,0,25,,7,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+VE_904A,SA fan-B DE vib.,SA Fan,Boiler,Analog Input,SA fan-B DE vibration,Vibration,MM/S,0,25,,7,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+VE_904B,SA fan-B NDE vib.,SA Fan,Boiler,Analog Input,SA fan-B NDE vibration,Vibration,MM/S,0,25,,7,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+VE_905A,FD fan-A DE vib.,FD Fan,Boiler,Analog Input,FD fan-A DE vibration,Vibration,MM/S,0,25,,7,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+VE_905B,FD fan-A NDE vib.,FD Fan,Boiler,Analog Input,FD fan-A NDE vibration,Vibration,MM/S,0,25,,7,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+VE_906A,FD fan-B DE vib.,FD Fan,Boiler,Analog Input,FD fan-B DE vibration,Vibration,MM/S,0,25,,7,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+VE_906B,FD fan-B NDE vib.,FD Fan,Boiler,Analog Input,FD fan-B NDE vibration,Vibration,MM/S,0,25,,7,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+VI_701,Turbine Rotor Front-X Vib.,30.85 MW Turbine,Turbine,Analog Input,Turbine rotor fore bearing vibration X axis,Vibration,Mils,0,10,,3.5,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+VI_702,Turbine Rotor Front-Y Vib.,30.85 MW Turbine,Turbine,Analog Input,Turbine rotor fore bearing vibration Y axis,Vibration,Mils,0,10,,3.5,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+VI_704,Turbine Rotor Rear-X Vib.,30.85 MW Turbine,Turbine,Analog Input,Turbine rotor after bearing vibration X axis,Vibration,Mils,0,10,,3.5,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+VI_705,Turbine Rotor Rear-Y Vib.,30.85 MW Turbine,Turbine,Analog Input,Turbine rotor after bearing vibration Y axis,Vibration,Mils,0,10,,3.5,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+VI_706,Turbine Pinion Front-X Vib.,Turbine Pinion,Turbine,Analog Input,Turbine pinion fore bearing vibration X axis,Vibration,Mils,0,10,,4,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+VI_707,Turbine Pinion Front-Y Vib.,Turbine Pinion,Turbine,Analog Input,Turbine pinion fore bearing vibration Y axis,Vibration,Mils,0,10,,4,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+VI_708,Gear Front Vib-X,Turbine Gear Wheel,Turbine,Analog Input,Gear wheel fore bearing vibration X axis,Vibration,Mils,0,10,,4,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+VI_709,Gear Front Vib-Y,Turbine Gear Wheel,Turbine,Analog Input,Gear wheel fore bearing vibration Y axis,Vibration,Mils,0,10,,4,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+VI_710,Turbine Pinion Rear -X Vib.,Turbine Pinion,Turbine,Analog Input,Turbine pinion after bearing vibration X axis,Vibration,Mils,0,10,,4,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+VI_711,Turbine Pinion Rear -Y Vib.,Turbine Pinion,Turbine,Analog Input,Turbine pinion after bearing vibration Y axis,Vibration,Mils,0,10,,4,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+VI_712,Gear Rear Vib-X,Turbine Gear Wheel,Turbine,Analog Input,Gear wheel after bearing vibration X axis,Vibration,Mils,0,10,,4,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+VI_713,Gear Rear Vib-Y,Turbine Gear Wheel,Turbine,Analog Input,Gear wheel after bearing vibration Y axis,Vibration,Mils,0,10,,4,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+VOL_603,AVR excitation voltage,AVR,Turbine,Analog Input,AVR excitation voltage,Voltage,Voltage,0,250,,125,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+ZI_701,Turbine Axial Top,30.85 MW Turbine,Turbine,Analog Input,Turbine axial movement top-1,Vibration,Mils,-30,30,-24,6,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000
+ZI_702,Turbine Axial Bottom,30.85 MW Turbine,Turbine,Analog Input,Turbine axial movement bottom-2,Vibration,Mils,-30,30,-24,6,2024-12-23 10:54:30.807000000,2024-12-23 10:54:30.807000000

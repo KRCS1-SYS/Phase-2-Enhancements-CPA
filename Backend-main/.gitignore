@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# VS Code
+.vscode/
+
+# Pytest
+.cache/
+
+# Flask-SocketIO temporary files
+instance/
+
+# Static files
+staticfiles/
+mediafiles/
+
+# FastAPI/Starlette Debug Toolbar
+debug.log
+
+# Local environment variables
+.env
+.env.*
+
+# PyCharm
+.idea/
+
+# SQLAlchemy
+*.db
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# Ignore Docker files if Docker is used
+*.pid
