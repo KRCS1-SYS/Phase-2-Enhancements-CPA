@@ -31,6 +31,9 @@ import { useParameter } from "@app/_components/_core/ParameterProvider/hooks";
 import { useJumboDialog } from "@jumbo/components/JumboDialog/hooks/useJumboDialog";
 import { debounce } from "lodash";
 import CustomLegend from "./CustomLegend";
+import Papa from "papaparse";
+import FileDownloadOutlinedIcon from "@mui/icons-material/FileDownloadOutlined";
+
 
 const LEGEND_WRAPPER_STYLE = { left: 25, top: -5 };
 
@@ -87,6 +90,30 @@ const SimpleLineChart = ({ tagItem, dashboard, getHistoryData }) => {
       showContactDetail();
     }
   }, [fullscreen]);
+
+  const handleDownloadCSV = (tagName, tagId) => {
+    // console.log(tagName, tagId)
+    const fileName=tagName.split(' ').join('-')+''+tagId.split(' ').join('-');
+    if (formattedData.length === 0) return;
+
+      // Convert formattedData to CSV format
+      const csvData = formattedData.map((row) => ({
+        time: moment(row.time).format("YYYY-MM-DD HH:mm:ss"), // Convert timestamp back to date string
+        value: row.value,
+      }));
+
+      const csv = Papa.unparse(csvData);
+
+      // Create a Blob and trigger download
+      const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.href = url;
+      link.setAttribute("download", fileName+"_data.csv");
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+  };
 
   // Dynamically update YDomain
   const updateYDomain = useCallback(() => {
@@ -204,6 +231,11 @@ const SimpleLineChart = ({ tagItem, dashboard, getHistoryData }) => {
             </Typography>
           </Div>
           <Stack direction="row" spacing={1}>
+          <>
+          <JumboIconButton onClick={() => handleDownloadCSV(tagItem.TagName, tagItem.TagId)} elevation={2}>
+            <FileDownloadOutlinedIcon />
+          </JumboIconButton>
+          </>
             <JumboIconButton onClick={updateYDomain} elevation={2}>
               <RefreshIcon />
             </JumboIconButton>

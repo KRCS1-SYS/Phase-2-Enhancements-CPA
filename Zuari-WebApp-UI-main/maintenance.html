@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Server Under Maintenance</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background: #0a2a59;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="maintenanceCanvas"></canvas>
+    <script>
+        const canvas = document.getElementById("maintenanceCanvas");
+        const ctx = canvas.getContext("2d");
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+
+        // Bubbles setup
+        const bubbles = [];
+        const bubbleCount = 30;
+
+        class Bubble {
+            constructor() {
+                this.x = Math.random() * canvas.width;
+                this.y = Math.random() * canvas.height;
+                this.radius = Math.random() * 8 + 2;
+                this.speedY = Math.random() * 1.5 + 0.5;
+                this.opacity = Math.random() * 0.5 + 0.3;
+            }
+
+            update() {
+                this.y -= this.speedY;
+                if (this.y < -this.radius) {
+                    this.y = canvas.height + this.radius;
+                    this.x = Math.random() * canvas.width;
+                }
+            }
+
+            draw() {
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+                ctx.fillStyle = `rgba(255, 255, 255, ${this.opacity})`;
+                ctx.fill();
+            }
+        }
+
+        for (let i = 0; i < bubbleCount; i++) {
+            bubbles.push(new Bubble());
+        }
+
+        let opacity = 1;
+        let fadeDirection = -0.02;
+        let armAngle = 0;
+        let armDirection = 1;
+
+        function draw() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            // Draw blue background
+            ctx.fillStyle = "#0a2a59";
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+            // Update and draw bubbles
+            bubbles.forEach((bubble) => {
+                bubble.update();
+                bubble.draw();
+            });
+
+            // Draw warning triangle
+            ctx.fillStyle = `rgba(255, 165, 0, ${opacity})`;
+            ctx.beginPath();
+            ctx.moveTo(canvas.width / 2, canvas.height / 3);
+            ctx.lineTo(canvas.width / 2 - 50, canvas.height / 2);
+            ctx.lineTo(canvas.width / 2 + 50, canvas.height / 2);
+            ctx.closePath();
+            ctx.fill();
+
+            // Draw exclamation mark
+            ctx.fillStyle = "#222";
+            ctx.fillRect(canvas.width / 2 - 5, canvas.height / 2 - 40, 10, 30);
+            ctx.beginPath();
+            ctx.arc(canvas.width / 2, canvas.height / 2 - 5, 6, 0, Math.PI * 2);
+            ctx.fill();
+
+            // Draw text
+            ctx.font = "bold 40px Arial";
+            ctx.fillStyle = "white";
+            ctx.textAlign = "center";
+            ctx.shadowColor = "rgba(255, 255, 255, 0.5)";
+            ctx.shadowBlur = 10;
+            ctx.fillText("Server Under Maintenance", canvas.width / 2, canvas.height / 2 + 80);
+
+            ctx.font = "20px Arial";
+            ctx.shadowBlur = 0;
+            ctx.fillText("We'll be back soon!", canvas.width / 2, canvas.height / 2 + 120);
+
+            // Update opacity for blinking effect
+            opacity += fadeDirection;
+            if (opacity <= 0.3 || opacity >= 1) {
+                fadeDirection *= -1;
+            }
+
+            // Draw robotic arm animation
+            drawRoboticArm(canvas.width / 2 - 150, canvas.height / 2 - 100, armAngle);
+
+            armAngle += armDirection * 0.05;
+            if (armAngle > 0.3 || armAngle < -0.3) {
+                armDirection *= -1;
+            }
+
+            requestAnimationFrame(draw);
+        }
+
+        function drawRoboticArm(x, y, angle) {
+            ctx.save();
+            ctx.translate(x, y);
+            ctx.rotate(angle);
+
+            // Arm base
+            ctx.fillStyle = "#cccccc";
+            ctx.fillRect(-10, 0, 20, 100);
+
+            // Joint
+            ctx.beginPath();
+            ctx.arc(0, 100, 10, 0, Math.PI * 2);
+            ctx.fillStyle = "#ffcc00";
+            ctx.fill();
+
+            // Arm extension
+            ctx.fillStyle = "#bbbbbb";
+            ctx.fillRect(-5, 110, 10, 60);
+
+            // Claw
+            ctx.fillStyle = "#ffaa00";
+            ctx.beginPath();
+            ctx.moveTo(-10, 170);
+            ctx.lineTo(10, 170);
+            ctx.lineTo(0, 190);
+            ctx.closePath();
+            ctx.fill();
+
+            ctx.restore();
+        }
+
+        draw();
+
+        // Resize canvas dynamically
+        window.addEventListener("resize", () => {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        });
+    </script>
+</body>
+</html>
