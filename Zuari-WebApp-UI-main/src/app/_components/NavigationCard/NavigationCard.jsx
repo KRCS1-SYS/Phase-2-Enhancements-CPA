@@ -32,7 +32,7 @@ export function NavigationCard({ title, path, description }) {
 
   return (
     <Card sx={{ textAlign: "center" }}>
-      test
+      {/* test */}
       <CardMedia
           component="img"
           height="204"

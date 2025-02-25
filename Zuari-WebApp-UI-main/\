@@ -7,8 +7,7 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-Zuari-WebApp-UI-main/node_modules/
-node_modules/
+Zuari-WebApp-UI-main/node_modules
 dist
 dist-ssr
 *.local
